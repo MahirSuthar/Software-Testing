@@ -1,0 +1,287 @@
+# Functional Requirements of TOPS Career Center
+
+Functional requirements describe the features and services that a system must provide to its users.
+
+## 1. User Login
+- The system shall allow registered users to log in using their mobile number and password.
+- The system shall validate the entered login credentials.
+- The system shall allow access to the portal when the credentials are valid.
+- The system shall display an error message when the credentials are incorrect.
+
+## 2. Forgot Password
+- The system shall provide a Forgot Password option.
+- Users shall be able to initiate the password recovery process.
+- The system shall verify the user's identity before allowing a password reset.
+
+## 3. User Dashboard
+- The system shall display a dashboard after successful login.
+- Users shall be able to access the features available to their accounts.
+- The dashboard shall display relevant career and training information, where available.
+
+## 4. Student Profile Management
+- Users shall be able to view their profile information.
+- Users shall be able to update permitted personal details.
+- The system shall store updated profile information.
+
+## 5. Course and Training Information
+- The system should allow users to view their relevant course details.
+- Users should be able to access available training-related information.
+- The system should display course progress or status if the feature is available.
+
+## 6. Attendance Management
+- The system should allow students to view their attendance records, if supported.
+- The system should display attendance details for relevant classes or training sessions.
+- Authorized staff should be able to manage attendance records, if permitted.
+
+## 7. Assignment Management
+- The system should allow students to view available assignments, if supported.
+- Students should be able to submit assignments through the portal if the feature is available.
+- The system should display submission status or feedback where applicable.
+
+## 8. Test and Assessment Management
+- The system should allow students to access available tests or assessments.
+- Students should be able to view their results when published.
+- The system should maintain assessment records according to user permissions.
+
+## 9. Placement Assistance
+- The system should provide access to relevant placement information, if available.
+- Students should be able to view job opportunities shared through the portal.
+- The system should allow eligible students to access placement-related activities where supported.
+
+## 10. Interview and Job Updates
+- The system should display relevant interview schedules and job-related updates, if available.
+- Students should be able to view the details of available placement activities.
+- The system should provide access to relevant interview information.
+
+## 11. Notifications and Announcements
+- The system should display important announcements for users.
+- Users should be able to view relevant training and career updates.
+- The system should notify users about important activities where notification functionality is supported.
+
+## 12. Learning Materials
+- The system should allow users to access available study materials, if supported.
+- Users should be able to view or download permitted learning resources.
+- The system should provide access according to the user's course or account permissions.
+
+## 13. User Logout
+- The system shall allow authenticated users to log out.
+- The system shall end the user's authenticated session.
+- The system shall prevent access to protected pages after logout without authentication.
+
+## 14. User Access Control
+- The system should provide access according to the user's role and permissions.
+- Students should only be able to access information authorized for them.
+- Administrators or authorized staff should be able to manage permitted records and information.
+
+
+
+
+
+# Non-Functional Requirements of TOPS Career Center
+
+Non-functional requirements describe the quality, performance, security, and reliability of a system.
+
+### 1. Performance
+- The website should load pages quickly.
+- The system should respond to user actions without unnecessary delays.
+- Login and dashboard operations should be completed efficiently.
+
+### 2. Security
+- The system shall protect user accounts from unauthorized access.
+- Passwords and sensitive information shall be protected.
+- The system shall provide secure login and authentication.
+
+### 3. Reliability
+- The website should work correctly and consistently.
+- User information should be stored accurately.
+- The system should handle errors without losing important data.
+
+### 4. Availability
+- The website should be available to users whenever required.
+- The system should minimize downtime.
+- Maintenance should be managed to reduce service interruptions.
+
+### 5. Usability
+- The website should have a simple and user-friendly interface.
+- Users should be able to navigate the portal easily.
+- Login, password recovery, and other available features should be easy to understand.
+
+### 6. Scalability
+- The system should support an increasing number of students and staff.
+- It should handle increased traffic during examinations, assessments, and placement activities.
+- The system should support future growth.
+
+### 7. Maintainability
+- The website should be easy to maintain and update.
+- Technical errors should be easy to identify and fix.
+- New features should be added without unnecessarily affecting existing functions.
+
+### 8. Compatibility
+- The website should work on commonly used browsers such as Chrome, Firefox, and Edge.
+- It should support Windows, macOS, Android, and iOS devices through compatible browsers.
+- The website should function correctly across supported platforms.
+
+### 9. Responsiveness
+- The website should adjust to different screen sizes.
+- Users should be able to access the portal on computers, tablets, and mobile phones.
+- Text, buttons, and forms should remain readable and usable.
+
+### 10. Data Integrity
+- The system should maintain accurate student information.
+- Attendance, assignment, assessment, and placement records should remain consistent where these features are supported.
+- Unauthorized changes to records should be prevented.
+
+### 11. Privacy
+- The system shall protect students' personal and academic information.
+- Access to confidential information shall be restricted to authorized users.
+- Personal information shall be handled according to applicable privacy requirements.
+
+### 12. Backup and Recovery
+- The system should maintain appropriate backups of important data.
+- Data should be recoverable after system failures.
+- Recovery procedures should minimize data loss and service interruption.
+
+### 13. Accessibility
+- The website should be usable by people with disabilities.
+- Forms and navigation should support keyboard use.
+- Text and interface elements should be accessible and easy to understand.
+
+### 14. Legal Compliance
+- The system shall comply with applicable data protection and privacy laws.
+- User information shall be processed according to relevant legal requirements.
+- Data security practices should follow applicable regulations.
+
+### 15. Accuracy
+- The system should display correct user and account information.
+- Information about courses, assessments, and placements should be accurate where these features are available.
+- The system should validate user inputs to reduce errors.
+
+
+
+
+
+
+# Use Cases of TOPS Career Center
+
+A use case describes how a user interacts with a system to perform a particular task.
+
+## 1. User Login
+**Actor:** Registered User (Student/Staff)
+
+- The user opens the TOPS Career Center website.
+- The user enters their mobile number and password.
+- The system validates the login credentials.
+- If the credentials are correct, the system opens the user's dashboard.
+- If the credentials are incorrect, the system displays an error message.
+
+## 2. Forgot Password
+**Actor:** Registered User
+
+- The user opens the login page.
+- The user selects the Forgot Password option.
+- The user provides the required account information.
+- The system verifies the user's identity.
+- The system allows the user to reset their password according to the available recovery process.
+
+## 3. View Dashboard
+**Actor:** Registered User
+
+- The user logs in to the portal.
+- The system displays the dashboard.
+- The user views available account information and portal features.
+- The user selects a feature to continue.
+
+## 4. Manage Student Profile
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the profile section.
+- The student views or updates permitted personal information.
+- The system validates the entered information.
+- The system saves the changes.
+
+## 5. View Course Details
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the course or training section, if available.
+- The system displays relevant course information.
+- The student views the course details and status.
+
+## 6. View Attendance
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the attendance section, if available.
+- The system retrieves the student's attendance records.
+- The system displays the attendance details.
+
+## 7. View and Submit Assignments
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the assignment section, if available.
+- The system displays the available assignments.
+- The student views the assignment instructions.
+- The student submits the assignment if online submission is supported.
+- The system displays the submission status.
+
+## 8. Take Tests and View Results
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the test or assessment section, if available.
+- The system displays available tests.
+- The student completes and submits a test.
+- The system records the submission and displays the result when available.
+
+## 9. View Placement Opportunities
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the placement section, if available.
+- The system displays relevant job opportunities.
+- The student views job descriptions and eligibility criteria.
+- The student applies or registers for an opportunity if the feature is supported.
+
+## 10. View Interview Details
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the interview or placement updates section, if available.
+- The system displays relevant interview details.
+- The student views the schedule, company information, and other available instructions.
+
+## 11. View Notifications and Announcements
+**Actor:** Student/Staff
+
+- The user logs in to the portal.
+- The user opens the notifications or announcements section, if available.
+- The system displays relevant updates.
+- The user opens a notification to view its details.
+
+## 12. Access Learning Materials
+**Actor:** Student
+
+- The student logs in to the portal.
+- The student opens the learning materials section, if available.
+- The system displays available study resources.
+- The student views or downloads permitted materials.
+
+## 13. Manage Student Records
+**Actor:** Authorized Staff/Administrator
+
+- The staff member logs in with authorized credentials.
+- The staff member opens the relevant management section.
+- The system displays records the staff member is permitted to access.
+- The staff member adds or updates permitted information.
+- The system validates and saves the changes.
+
+## 14. User Logout
+**Actor:** Registered User
+
+- The user opens the account menu.
+- The user selects the Logout option.
+- The system ends the authenticated session.
+- The user is returned to the login page or another logged-out page.
+

@@ -1,0 +1,279 @@
+# Functional Requirements of Facebook.com
+
+Functional requirements describe the features and functions that a system must provide to its users.
+
+1. User Registration
+- The system shall allow new users to create an account.
+- Users shall register using their name, email address or mobile number, and password.
+- The system shall verify the user's registration details.
+
+2. User Login and Logout
+- The system shall allow registered users to log in securely.
+- Users shall be able to log out of their accounts.
+- The system shall validate login credentials.
+
+3. Profile Management
+- Users shall be able to create and update their profiles.
+- Users shall be able to add a profile picture, cover photo, bio, and personal details.
+- Users shall be able to manage their profile privacy settings.
+
+4. Friend Management
+- Users shall be able to send and accept friend requests.
+- Users shall be able to reject or cancel friend requests.
+- Users shall be able to remove existing friends.
+- The system shall suggest people users may know.
+
+5. News Feed
+- The system shall display posts from friends and followed pages.
+- Users shall be able to view text, images, videos, and shared content.
+- The system shall update the feed with relevant content.
+
+6. Post Management
+- Users shall be able to create text, image, and video posts.
+- Users shall be able to edit or delete their own posts.
+- Users shall be able to share posts with friends or the public.
+- Users shall be able to control the audience for their posts.
+
+7. Like and Reaction
+- Users shall be able to like posts.
+- Users shall be able to react to posts using different reactions.
+- Users shall be able to remove or change their reactions.
+
+8. Comment Management
+- Users shall be able to comment on posts.
+- Users shall be able to edit or delete their own comments.
+- Users shall be able to reply to comments.
+
+9. Messaging
+- Users shall be able to send and receive messages.
+- Users shall be able to share photos and videos through messages.
+- The system shall display message delivery and read status where available.
+
+10. Search Functionality
+- Users shall be able to search for people, pages, groups, and posts.
+- The system shall display relevant search results.
+
+11. Notifications
+- The system shall notify users about friend requests, reactions, comments, and other activities.
+- Users shall be able to view their notifications.
+- Users shall be able to manage notification preferences.
+
+12. Groups and Pages
+- Users shall be able to create and join groups.
+- Users shall be able to create and follow pages.
+- Group administrators shall be able to manage members and group content.
+
+13. Privacy and Security
+- Users shall be able to control who can see their posts and personal information.
+- Users shall be able to block or report other users.
+- The system shall protect user accounts and personal information.
+
+14. Stories
+- Users shall be able to upload photos and videos as stories.
+- Friends shall be able to view available stories.
+- Stories shall normally disappear after 24 hours, subject to the feature's settings.
+
+15. Account Settings
+- Users shall be able to change their account settings.
+- Users shall be able to change their password.
+- Users shall be able to deactivate or request deletion of their accounts.
+
+
+
+# Non-Functional Requirements of Facebook.com
+
+Non-functional requirements describe the quality, performance, security, and reliability of a system.
+
+1. **Performance**
+- The system should load pages quickly.
+- The system should respond to user actions without unnecessary delays.
+- Posts, messages, and notifications should load efficiently.
+
+2. **Security**
+- The system shall protect user accounts from unauthorized access.
+- Passwords and sensitive information shall be protected.
+- The system shall provide secure authentication and account protection.
+
+3. **Reliability**
+- The system should work correctly and consistently.
+- User data should not be lost during normal operations.
+- The system should recover from failures whenever possible.
+
+4. **Availability**
+- The system should be available to users 24/7, except during maintenance or unexpected outages.
+- The system should minimize downtime.
+
+5. **Scalability**
+- The system should support a large number of users.
+- It should handle increasing traffic and data without significant performance degradation.
+- The system should support future growth.
+
+6. **Usability**
+- The interface should be simple and user-friendly.
+- Users should be able to navigate the website easily.
+- Features should be understandable to new users.
+
+7. **Maintainability**
+- The system should be easy to update and maintain.
+- Errors should be easy to identify and fix.
+- New features should be added without affecting existing functionality unnecessarily.
+
+8. **Compatibility**
+- The website should work on different browsers, such as Chrome, Firefox, and Edge.
+- The website should support different operating systems.
+- The interface should work on desktops, tablets, and mobile devices.
+
+9. **Privacy**
+- The system shall protect users' personal information.
+- Users should be able to control the visibility of their posts and profile details.
+- Personal data should be handled according to applicable privacy requirements.
+
+10. **Accessibility**
+- The website should be usable by people with disabilities.
+- It should support keyboard navigation and screen readers.
+- Text and interface elements should be easy to read and understand.
+
+11. **Data Integrity**
+- The system should maintain accurate and consistent user data.
+- Posts, comments, and messages should be stored correctly.
+- Unauthorized changes to data should be prevented.
+
+12. **Backup and Recovery**
+- The system should maintain appropriate backups of important data.
+- Data should be recoverable after system failures or disasters.
+- Recovery procedures should minimize data loss and service interruption.
+
+13. **Responsiveness**
+- The website should adjust to different screen sizes.
+- The layout should remain usable on mobile phones, tablets, and computers.
+
+14. **Interoperability**
+- The system should communicate with supported external services and applications.
+- Integrations should operate according to their defined interfaces and permissions.
+
+15. **Legal Compliance**
+- The system shall comply with applicable data protection and privacy laws.
+- User data shall be processed according to applicable legal requirements.
+
+
+
+
+
+# Use Cases of Facebook.com
+
+A use case describes how a user interacts with a system to achieve a specific goal.
+
+## 1. User Registration
+**Actor:** New User
+
+- The user opens Facebook.com.
+- The user selects the sign-up option.
+- The user enters their name, email address or mobile number, date of birth, and password.
+- The system validates the information.
+- The system creates the account after successful verification.
+
+## 2. User Login
+**Actor:** Registered User
+
+- The user opens Facebook.com.
+- The user enters their email address or mobile number and password.
+- The system verifies the login credentials.
+- If the credentials are correct, the system allows access to the account.
+- If the credentials are incorrect, the system displays an error message.
+
+## 3. Manage Profile
+**Actor:** Registered User
+
+- The user opens their profile.
+- The user selects the edit profile option.
+- The user updates their profile picture, cover photo, bio, or other details.
+- The system saves the changes.
+- The updated profile is displayed.
+
+## 4. Send Friend Request
+**Actor:** Registered User
+
+- The user searches for another person.
+- The user opens that person's profile.
+- The user selects the Add Friend option.
+- The system sends a friend request.
+- The receiver can accept or reject the request.
+
+## 5. Create a Post
+**Actor:** Registered User
+
+- The user opens the post creation section.
+- The user enters text or uploads a photo or video.
+- The user selects the audience for the post.
+- The user clicks the Post button.
+- The system publishes the post according to the selected audience settings.
+
+## 6. Like and Comment on a Post
+**Actor:** Registered User
+
+- The user views a post in the news feed.
+- The user selects Like or another available reaction.
+- The user can enter a comment.
+- The user submits the comment.
+- The system updates the post's reactions and comments.
+
+## 7. Send a Message
+**Actor:** Registered User
+
+- The user opens the messaging feature.
+- The user selects a recipient.
+- The user types a message.
+- The user clicks Send.
+- The system delivers the message when the service is available.
+
+## 8. Search for Users
+**Actor:** Registered User
+
+- The user enters a name or keyword in the search bar.
+- The system processes the search query.
+- The system displays relevant results.
+- The user selects a result to view the profile or content.
+
+## 9. View Notifications
+**Actor:** Registered User
+
+- The user opens the notifications section.
+- The system displays available notifications.
+- The user selects a notification.
+- The system opens the related post, profile, or activity.
+
+## 10. Create a Story
+**Actor:** Registered User
+
+- The user opens the story creation feature.
+- The user uploads a photo or video.
+- The user selects the audience.
+- The user publishes the story.
+- The system displays the story to the intended audience for the available period.
+
+## 11. Join a Group
+**Actor:** Registered User
+
+- The user searches for a group.
+- The user opens the group's page.
+- The user selects Join Group.
+- If approval is required, the system sends a membership request to the administrator.
+- The user becomes a member after approval, where applicable.
+
+## 12. Manage Privacy Settings
+**Actor:** Registered User
+
+- The user opens account settings.
+- The user selects privacy settings.
+- The user changes the visibility of posts or profile information.
+- The system saves the preferences.
+- The system applies the settings to the relevant information and activities.
+
+## 13. Log Out
+**Actor:** Registered User
+
+- The user opens the account menu.
+- The user selects Log Out.
+- The system ends the current authenticated session.
+- The user returns to the logged-out state.
+

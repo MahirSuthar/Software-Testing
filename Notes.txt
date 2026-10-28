@@ -1,0 +1,32 @@
+SRS : Software requirement specification.
+
+Define : - Testing is the process of a evaluating a system or its component to determine whether it satisfies the specified requirement.
+
+-> Testing is executing a system to identify any gaps, errors or missing requirements contrary to the actual desire or requirement.
+
+SDLC :- Software development life cycle.
+
+______________________________________
+
+SEVEN KEY PRINCIPLES :-
+______________________________________
+
+-> Testing shows preference defects
+-> Exhaustive testing is impossible 
+-> Early testing
+-> Defect Clustering
+-> The pesticide Paradox
+-> Testing is context Dependent
+-> Absence of error Fallacy.
+
+---> CI/CD :- Continuous integration/Continuous deployment.
+
+---> FLOW :-
+
+	DEV(Dev test passed)
+		|
+	QA(integration test passed)
+		|
+	UAT(Acceptance test passed)
+		|
+	Deploy to PROD.
